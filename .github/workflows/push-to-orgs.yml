@@ -129,7 +129,7 @@ jobs:
               shell: bash
               run: |
                   echo ${{ secrets.SFDX_DEVELOPMENT_URL}} > ./SFDX_DEVELOPMENT_URL.txt
-                  echo ${{ secrets.SFDX_STAGING_URL}} > ./SFDX_STAGING_URL.txt
+                 
 
             # We use SFDX Git Delta to create a directory with only the metadata that has changed.
             # this allows us to deploy only those changes, as opposed to deploying the entire branch. 
@@ -182,8 +182,8 @@ jobs:
               run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings 
 
             ###STAGING ORG:
-            - name: 'Authenticate to staging org'
-              run: sfdx auth:sfdxurl:store -f ./SFDX_STAGING_URL.txt -s -a staging
+          #  - name: 'Authenticate to staging org'
+          #    run: sfdx auth:sfdxurl:store -f ./SFDX_STAGING_URL.txt -s -a staging
 
             - name: 'Deploying to staging org(s) - run specified tests in PR'
               if: ${{ env.APEX_TESTS != 'all' }}

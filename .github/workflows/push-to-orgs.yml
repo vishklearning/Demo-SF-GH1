@@ -129,7 +129,7 @@ jobs:
               shell: bash
               run: |
                   echo ${{ secrets.SFDX_DEVELOPMENT_URL}} > ./SFDX_DEVELOPMENT_URL.txt
-           # echo ${{ secrets.SFDX_STAGING_URL}} > ./SFDX_STAGING_URL.txt
+           
 
             # We use SFDX Git Delta to create a directory with only the metadata that has changed.
             # this allows us to deploy only those changes, as opposed to deploying the entire branch. 

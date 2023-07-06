@@ -4,7 +4,7 @@ name: Deploy to dev and staging org(s)
 # Definition when the workflow should run Hello World 1111
 on:
     # The workflow will run whenever an event happens on a pull request
-    pull_request:
+    push:
      branches:  master
       # The events are that a PR is opened, or when a commit is pushed
       # to a branch that has an existing pull request

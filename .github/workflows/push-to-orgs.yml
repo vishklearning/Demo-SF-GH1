@@ -181,10 +181,7 @@ jobs:
             - name: 'Deploy destructive changes (if any)'
               run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings 
 
-            ###STAGING ORG:
-          #  - name: 'Authenticate to staging org'
-          #    run: sfdx auth:sfdxurl:store -f ./SFDX_STAGING_URL.txt -s -a staging
-
+          
             - name: 'Deploying to staging org(s) - run specified tests in PR'
               if: ${{ env.APEX_TESTS != 'all' }}
               run: |

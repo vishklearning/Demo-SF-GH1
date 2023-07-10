@@ -28,3 +28,5 @@ jobs:
     steps:
       - name: Download Artifact
         uses: actions/download-artifact@v3
+      - name: Output content
+        run: ls

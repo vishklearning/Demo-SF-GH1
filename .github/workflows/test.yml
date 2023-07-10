@@ -16,5 +16,5 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: vishklearning/test2
-          path: resources/docs/2.x
-          ref: 2.x
+          #path: resources/docs/2.x
+          #ref: 2.x

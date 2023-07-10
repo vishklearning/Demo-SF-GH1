@@ -16,5 +16,5 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: vishklearning/SalesforceDemo
-          path: SalesforceDemo/lwc/helloSetup
-          ref: helloSetup
+          # path: SalesforceDemo/lwc/helloSetup
+          # ref: helloSetup

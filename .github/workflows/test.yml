@@ -15,6 +15,6 @@ jobs:
       - name: Clone supercharge docs repository
         uses: actions/checkout@v2
         with:
-          repository: vishklearning/Devopstrial
-          path: force-app
-          ref: force-app
+          repository: vishklearning/SalesforceDemo
+          path: SalesforceDemo
+          ref: SalesforceDemo

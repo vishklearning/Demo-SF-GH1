@@ -15,6 +15,6 @@ jobs:
       - name: Clone supercharge docs repository
         uses: actions/checkout@v2
         with:
-          repository: vishklearning/test
+          repository: test
           path: resources/docs/2.x
           ref: 2.x

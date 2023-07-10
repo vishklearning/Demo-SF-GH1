@@ -4,7 +4,7 @@ name: Deploy to Production
 # Definition when the workflow should run
 on:
     pull_request:
-      branches: [ master ]
+      branches: [ master1 ]
       types:
         - closed
       paths:

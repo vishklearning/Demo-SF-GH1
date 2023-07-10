@@ -22,3 +22,9 @@ jobs:
         with: 
           name: TempArtifact
           path: force-app/
+  deploy:
+    needs: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifactv@3

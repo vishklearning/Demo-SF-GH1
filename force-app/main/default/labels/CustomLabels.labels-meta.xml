@@ -21,4 +21,11 @@
         <shortDescription>Manual Trigger Label 3</shortDescription>
         <value>CCCC</value>
     </labels>
+     <labels>
+        <fullName>WelcomeToGlobal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WelcomeToGlobal</shortDescription>
+        <value>CCCC</value>
+    </labels>
 </CustomLabels>

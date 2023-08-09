@@ -28,4 +28,11 @@
         <shortDescription>WelcomeToGlobal</shortDescription>
         <value>CCCC</value>
     </labels>
+    <labels>
+        <fullName>HelloWOrld</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HelloWOrld</shortDescription>
+        <value>CCCC</value>
+    </labels>
 </CustomLabels>

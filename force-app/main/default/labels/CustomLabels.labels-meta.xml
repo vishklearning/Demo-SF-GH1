@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AAA11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manual Trigger Label</shortDescription>
+        <value>AAA11</value>
+    </labels>
+    <labels>
+        <fullName>BBBB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manual Trigger Label 2</shortDescription>
+        <value>BBBBB</value>
+    </labels>
+    <labels>
+        <fullName>CCCC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manual Trigger Label 3</shortDescription>
+        <value>CCCC</value>
+    </labels>
+</CustomLabels>
